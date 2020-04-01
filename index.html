@@ -2,178 +2,264 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<script  src="js/emoji-button/index.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
 </head>
+
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+  
+  <header>
+  <div class="menubar">
+  <li>	<a href="#about">About Me</a></li>
+  <li>	<a href="#photos">My Photos</a></li>
+  <li>	<a href="#playlist">My Playlist</a></li>
+  <li>	<a href="#like">Like</a></li>
+  <li>	<a href="#qrcoder">QR code</a></li>
+  <li>	<a href="#spa">Q&A</a></li>
+  <li>	<a href="#contact">Contact Me</a></li> 
+  </div>
+  </header>
+
+  <div id="demoFont">
+	<div class="mainPage">
+    <section id="about" class="section" Align="center">
+      <br/>
+      <h1>About my Grandparents</h1>
+      <img src="emojy.webp" width="150" height="150" Align="center" class=" my-photo">
+      <br/>
+      <div id="demotext">
+        <h2>אז בין סבא לסבתא אי אפשר לבחור ולכן אספר קצת על שניהם</h2>
+        <h3> סבא שלי , נולד בעפולה בשנת 1933. בהפרש של פחות מחודש מיום הולדות סבתי נולדה בכרמי יוסף</h3>
+        <h3>סבי וסבתי התחתנו בגיל 21 לאחר שהכירו בשירות הצבאי</h3>
+        <h3>הם היו חלק מגרעין בני המושבים ומהראשונים להתיישב במושב ניר בנים שלימים גידלו במושב זה את ילדיהם ונכדיהם</h3>
+        <h3>מאז ומעולם הם עסקו בחקלאות , היו חלק מהקמה של גרעיני התיישבות חקלאיים ברחבי הארץ והשתקעו במושב.
+        </h3>  סבי אשר למד בכדורי הדריך מטעם תנועת בני המושבים גרעיני התיישבות בזמן שסבתי נשארה אמונה על פעילות המשק    
+       <h3> בשנת 1980 נשלחו לעבוד בהדרכת חקלאות בונצואלה, פורטוריקו וקליפורניה שם שמעו לראשונה על אספרגוס</h3>
+       <h3>כאשר חזרו לארץ, לא יכלו לשכוח את הירק המיוחד והחליטו לגדלו בארץ. דוד שלי הצטרף אליהם לעבודה הקשה</h3>
+       <h2>והיום</h2>
+       <h3>לאחר שנים של גידול אספרגוס במושב, שלושה ילדים , עשרה נכדים ונינה אחת מצאו את עצמם סבי וסבתי באוכלוסיית סיכון</h3>
+       <h2>"כמו שהגיל לא יעצור אותנו מלקום בבוקר וללכת לעבוד , גם הקורונה לא תפחיד אותנו"</h2>
+       <h3>אז גם היום על אף הבידוד הם יוצאים בבוקר לחצר והולכים לעבוד במפעל חייהם</h3>
+      </div>
+      <br/>
+      <br/>
+      </section>
+      
+
+      <section id="photos" class="section" Align="center">
+      <br/>
+      <br/>
+      <h1>My photos</h1>
+      <br/>
+      <br/>
+  <!-- Slideshow container -->
+<div class="slideshow-container" Align="center">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 9</div>
+    <img src="saba4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 9</div>
+    <img src="saba1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 9</div>
+    <img src="saba2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 9</div>
+    <img src="saba3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 9</div>
+    <img src="saba5.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 9</div>
+    <img src="saba6.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 9</div>
+    <img src="saba7.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 9</div>
+    <img src="saba8.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 9</div>
+    <img src="saba9.jpg" style="width:100%">
+  </div>
+
+  
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
 
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
+<br>
 
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
 
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
+      <br/>
+      <br/>
+      </section>
+      
+      <section id="playlist" class="section" Align="center">
+      <br/>
+      <br/>
+      <h1>My playlist</h1>
+      <br/>
+      <br/>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/5f7pFaJf7tE" frameborder="0" 
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br/>
+      </section>
+      
+      <section id="like" class="section" Align="center">
+      <br/>
+      <br/>
+      <h1>give me a like</h1>
+      <br/>
+      <img src="emoji8.webp" width="150" height="150" Align="center" class=" my-photo1" >
+      <br/>
+      <div id="demotext">
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v6.0"></script>
+    
+      <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fsearch%2Ftop%2F%3Fq%3D%25D7%259B%25D7%2590%25D7%259F%2520%25D7%25A7%25D7%2595%25D7%25A4%25D7%2594%2520%25D7%25A8%25D7%2590%25D7%25A9%25D7%2599%25D7%25AA%26epa%3DSEARCH_BOX&width=450&layout=standard&action=like&size=small&share=true&height=35&appId" width="450" height="35" 
+      style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+      <br/>
+      <br/>
+      </section>
+    </div>
+      <section id="qrcoder" class="section" Align="center">
+      <br/>
+      <br/>
+      <h1>scan my code</h1>
+      <br/>
+      <br/>
+      <img  width="300" height="300"  src="qr-code.png" Align="center">
+      <br/>
+      <br/>
+      </section>
+      
+      <section id="spa" class="section" Align="center">
+      <br/>
+      <h1>ans</h1>
+      <br/>
+      <img src="emojy3.webp" width="150" height="150" Align="center" class=" my-photo2" >
+      <br/>
+      <div id="demotext">
+      <h1>תשובה לשאלה 1</h1>
 
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
+        <h2>web1.0</h2>
+        
+        <h3>התמקד ביצירת תוכן סטטי, היווה דרך לפרסם תוכן מבלי ליצור אינטראקציה בין הקוראים למפרסם</h3>
+        
+        <h3>חברות מפרסמות תוכן ואנשים פרטיים צורכים אותו</h3>
+        
+        <h3>במנועי חיפוש אחזור התוכן מאקרו. החיפוש מהיר מאוד אבל פעמים רבות התוצאות לא מדויקות</h3>
 
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
+        <h2>web2.0</h2>
+        
+        <h3> מתבסס יותר על תקשורת דו כיוונית דרך רשתות חברתיות, בלוגים , תיוגים , תוכן שנוצר על ידי המשתמש</h3>
+        
+        <h>אנשים מפרסמים תוכן שאנשים אחרים יכולים לצרוך. חברות בונות פלטפורמות שמאפשרות לאנשים לפרסם תוכן עבור אנשים אחרים</h3>
+        
+        <h3>במנועי החיפוש אחזור התגים עם תוכן מיקרו. תהליך התיוג מתבצע בצורה ידנית ומכסה רק אחוז זניח מהרשת.
+           מתבצע תיוג להכל : תמונות, קישורים, אירועים, חדשות, בלוגים, שמע, וידאו וכדומה.</h3>
 
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
+        <h2>web3.0</h2>
+        
+        <h3>לא מוגדר על פי האינטראקציה בין הכותב לקורא , לומדים את המשתמשים , 
+          ומה הוא רוצה מחוויית האינטרנט שלו ויוצרים עבור המשתמש חוויית אינטרנט בהתאמה אישית. </h3>
+        
+        <h3>אנשים בונים יישומים שאנשים אחרים יכולים לתקשר איתם ,
+           חברות בונות פלטפורמות אשר מאפשרות לאנשים לפרסם שירותים על ידי מינוף הקשרים בין אנשים או תוכן.</h3>
+        
+        <h3>במנועי החיפוש הניסיון הוא לאחזר תוכן מיקרו טקסטים מתויגים, באופן אוטומטי.
+           הכוונה היא שמתבצע תרגום של מיליארדי תכני מאקרו , לתוכן מיקרו. התוצאה של זה היא חיפוש יותר מדויק המתאפשר על ידי שימוש בתיוג מאפשר הכנסת מילים נרדפות לחיפוש. </h3>
+
+
+      <h1>תשובה לשאלה 2</h1>
+      <h2>תרחיש שימוש : שאילתא תופעת לוואי של תרופות</h2>
+      <h2>web1.0</h2>
+      <h3>כאשר נפעיל את תרחיש השימוש ונבצע את השאילתא, מה שנצטרך לעשות בשימוש ברשת זו, זה להזין את כתובת  מלאה של האתר בו מפורטות תופעות הלוואי</h3>
+      <h2>web3.0</h2>
+      <h3>כאשר נפעיל את תרחיש השימוש ונבצע את השאילתא , נזין למנוע החיפוש את הטקסט של השאילתא ונקבל קישורים המדורגים על פי הרלוונטיות שלהם לשאילתא</h3>
+    </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+     
+      </section>
+      
+      <section id="contact" class="section" Align="center">
+      <br/>
+      <br/>
+      <h1>contact me</h1>
+      <br/>
+      <div class="container" Align="center">
+        <form method="get" action="mailto:inbartz@gmail.com" enctype="multipart/form-data;charset=UTF-8" onsubmit="subject.value = fname.value +':'+ subject.value">
+      
+          <label for="fname">name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+         <label for="masage subject">Subject</label>
+          <textarea name="subject" placeholder="What is your email.." ></textarea>
+          
+          <label for="body">Message</label>
+          <textarea id="emoji-input" name="body" placeholder="Write something.." style="height:200px" ></textarea>
+      
+         
+          <br/>
+          <input type="submit" value="Submit" class="submit-button">
+          <input type="reset" value="Reset" class="submit-button">
+          <br/>
+          <label for="emoji">choose your emoji</label>
+          <br/>
+          
+        </form>
+        <button id="emoji-button" class="emoji-botton">😋 </button>
+        
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      </section>
+  </div>	  
+
+
 
 
 <script type="text/javascript">
@@ -181,13 +267,59 @@ $(function(){
   $("#nav a").click(function(e){
     e.preventDefault();
     $('html,body').scrollTo(this.hash,this.hash); 
-  });
+  })
 });
 </script>
 <script type="text/javascript">
  $(document).scroll(function() {
     $('#menu').toggle($(this).scrollTop()>1000)
- });​
+ })
+</script>
+<script>
+ var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
  </script>
+ <script >
+  window.addEventListener('DOMContentLoaded', () => {
+    const button = document.querySelector('#emoji-button');
+    const picker = new EmojiButton();
+  
+    picker.on('emoji', emoji => {
+      document.querySelector('#emoji-input').value += emoji;
+    });
+  
+      button.addEventListener('click', () => {
+        picker.togglePicker(button);
+      });
+  }); 
+  </script>
+
+ </div>
 </body>
 </html>
