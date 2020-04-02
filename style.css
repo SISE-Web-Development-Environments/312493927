@@ -245,10 +245,10 @@ input[type=text], select, textarea {
 	  content: url('emoji4.webp');
   }
   .my-photo1:hover {
-	content: url('emoji7.webp');
+	content: url('items/emoji7.webp');
 }
 .my-photo2:hover {
-	content: url('emoji6webp.webp');
+	content: url('items/emoji6webp.webp');
 }
 
   .emoji-botton{
